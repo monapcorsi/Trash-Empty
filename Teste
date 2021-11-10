@@ -1,0 +1,504 @@
+{
+  "id": "cb388f26-1799-4ff2-ac2d-df1443adf2ed",
+  "version": "2.0",
+  "name": "teste",
+  "url": "http://sampleapp.tricentis.com/101/app.php",
+  "tests": [{
+    "id": "24ddbd36-2964-4f9d-a082-2cca817f541e",
+    "name": "Untitled",
+    "commands": [{
+      "id": "504e151d-69ce-4d21-ab5b-eb5bca93da01",
+      "comment": "",
+      "command": "open",
+      "target": "http://sampleapp.tricentis.com/101/app.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c73b418-69da-44ac-b42f-04c08821c313",
+      "comment": "",
+      "command": "select",
+      "target": "id=make",
+      "targets": [],
+      "value": "label=Audi"
+    }, {
+      "id": "734ca613-59e1-4919-ac11-fd3a67329a9d",
+      "comment": "",
+      "command": "type",
+      "target": "id=engineperformance",
+      "targets": [
+        ["id=engineperformance", "id"],
+        ["name=[kW]", "name"],
+        ["css=#engineperformance", "css:finder"],
+        ["xpath=//input[@id='engineperformance']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "600"
+    }, {
+      "id": "d5fdfe1b-514c-44cc-8c1f-3c691c24dcc1",
+      "comment": "",
+      "command": "type",
+      "target": "id=dateofmanufacture",
+      "targets": [
+        ["id=dateofmanufacture", "id"],
+        ["name=Date of Manufacture", "name"],
+        ["css=#dateofmanufacture", "css:finder"],
+        ["xpath=//input[@id='dateofmanufacture']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "01/01/2021"
+    }, {
+      "id": "9ffc6698-b3ae-4bf6-98fb-304ac64dabfd",
+      "comment": "",
+      "command": "select",
+      "target": "id=numberofseats",
+      "targets": [],
+      "value": "label=1"
+    }, {
+      "id": "0f53706f-1eed-47e2-a770-c5dba441d06a",
+      "comment": "",
+      "command": "select",
+      "target": "id=fuel",
+      "targets": [],
+      "value": "label=Diesel"
+    }, {
+      "id": "965937d9-e3ae-4e53-8093-7488320b391d",
+      "comment": "",
+      "command": "type",
+      "target": "id=listprice",
+      "targets": [
+        ["id=listprice", "id"],
+        ["name=List Price", "name"],
+        ["css=#listprice", "css:finder"],
+        ["xpath=//input[@id='listprice']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": "80000"
+    }, {
+      "id": "f6d51968-9159-40dc-8e0e-8d81ef69c37e",
+      "comment": "",
+      "command": "type",
+      "target": "id=licenseplatenumber",
+      "targets": [
+        ["id=licenseplatenumber", "id"],
+        ["name=License Plate Number", "name"],
+        ["css=#licenseplatenumber", "css:finder"],
+        ["xpath=//input[@id='licenseplatenumber']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[7]/input", "xpath:idRelative"],
+        ["xpath=//div[7]/input", "xpath:position"]
+      ],
+      "value": "321654"
+    }, {
+      "id": "13d4d911-8936-4e6a-8ed6-5eefc071083a",
+      "comment": "",
+      "command": "type",
+      "target": "id=annualmileage",
+      "targets": [
+        ["id=annualmileage", "id"],
+        ["name=Annual Mileage", "name"],
+        ["css=#annualmileage", "css:finder"],
+        ["xpath=//input[@id='annualmileage']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[8]/input", "xpath:idRelative"],
+        ["xpath=//div[8]/input", "xpath:position"]
+      ],
+      "value": "2000"
+    }, {
+      "id": "6a625498-3436-4385-83cc-8c373574d02f",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextenterinsurantdata",
+      "targets": [
+        ["id=nextenterinsurantdata", "id"],
+        ["name=Next (Enter Insurant Data)", "name"],
+        ["css=#nextenterinsurantdata", "css:finder"],
+        ["xpath=//button[@id='nextenterinsurantdata']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section/div[9]/button", "xpath:idRelative"],
+        ["xpath=//div[9]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Next »')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aec19d3d-1c7a-495d-a8fa-3016ad61da5e",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=First Name", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/input", "xpath:position"]
+      ],
+      "value": "teste"
+    }, {
+      "id": "e81ed28d-a69e-41e9-84f3-11b88b39d960",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=Last Name", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "testando"
+    }, {
+      "id": "c20d90a9-8939-4a86-b242-940a6577ccbd",
+      "comment": "",
+      "command": "type",
+      "target": "id=birthdate",
+      "targets": [
+        ["id=birthdate", "id"],
+        ["name=Date of Birth", "name"],
+        ["css=#birthdate", "css:finder"],
+        ["xpath=//input[@id='birthdate']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[3]/input", "xpath:position"]
+      ],
+      "value": "01/01/2000"
+    }, {
+      "id": "e9fbb910-b290-4caf-9bba-3e090f401143",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(4) > .group",
+      "targets": [
+        ["css=.field:nth-child(4) > .group", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[4]/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3896dfb3-980d-4055-b3b2-98284d30fb42",
+      "comment": "",
+      "command": "select",
+      "target": "id=country",
+      "targets": [],
+      "value": "label=Brazil"
+    }, {
+      "id": "b5917a53-e6c1-47b0-bfee-436016324035",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(32)",
+      "targets": [
+        ["css=option:nth-child(32)", "css:finder"],
+        ["xpath=//option[@value='Brazil']", "xpath:attributes"],
+        ["xpath=//select[@id='country']/option[32]", "xpath:idRelative"],
+        ["xpath=//option[32]", "xpath:position"],
+        ["xpath=//option[contains(.,'Brazil')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cae94260-4600-49ac-8a45-3a6d7edfe085",
+      "comment": "",
+      "command": "type",
+      "target": "id=zipcode",
+      "targets": [
+        ["id=zipcode", "id"],
+        ["name=Zip Code", "name"],
+        ["css=#zipcode", "css:finder"],
+        ["xpath=//input[@id='zipcode']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[7]/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div[7]/input", "xpath:position"]
+      ],
+      "value": "555555"
+    }, {
+      "id": "9dc46c77-5bb0-4683-a1cb-a3c36dd14a7f",
+      "comment": "",
+      "command": "select",
+      "target": "id=occupation",
+      "targets": [],
+      "value": "label=Employee"
+    }, {
+      "id": "eb1e8750-42fb-4c18-99ed-0da7365a3ec6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.group:nth-child(2) > .ideal-radiocheck-label:nth-child(1) > .ideal-radio",
+      "targets": [
+        ["css=.group:nth-child(2) > .ideal-radiocheck-label:nth-child(1) > .ideal-radio", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[4]/p/label/span", "xpath:idRelative"],
+        ["xpath=//label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "efa3dc72-85b9-4fac-ae49-7da25947eb77",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(10) .ideal-radiocheck-label:nth-child(1) > .ideal-check",
+      "targets": [
+        ["css=.field:nth-child(10) .ideal-radiocheck-label:nth-child(1) > .ideal-check", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[10]/p/label/span", "xpath:idRelative"],
+        ["xpath=//div[10]/p/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa78f5a9-bd58-46ad-b3a3-4f6700d310db",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextenterproductdata",
+      "targets": [
+        ["id=nextenterproductdata", "id"],
+        ["name=Next (Enter Product Data)", "name"],
+        ["css=#nextenterproductdata", "css:finder"],
+        ["xpath=//button[@id='nextenterproductdata']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[2]/div[13]/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "255e43ca-a8b1-42cc-9cfb-ea8379d92441",
+      "comment": "",
+      "command": "type",
+      "target": "id=startdate",
+      "targets": [
+        ["id=startdate", "id"],
+        ["name=Start Date", "name"],
+        ["css=#startdate", "css:finder"],
+        ["xpath=//input[@id='startdate']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div/input", "xpath:idRelative"],
+        ["xpath=//section[3]/div/input", "xpath:position"]
+      ],
+      "value": "01/01/2022"
+    }, {
+      "id": "7516f7dd-8be8-49d6-ad50-ed523579371c",
+      "comment": "",
+      "command": "select",
+      "target": "id=insurancesum",
+      "targets": [],
+      "value": "label=25.000.000,00"
+    }, {
+      "id": "357a1f74-80e5-4f31-8727-39f28ca4e12d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#insurancesum > option:nth-child(8)",
+      "targets": [
+        ["css=#insurancesum > option:nth-child(8)", "css:finder"],
+        ["xpath=//option[@value='25000000']", "xpath:attributes"],
+        ["xpath=//select[@id='insurancesum']/option[8]", "xpath:idRelative"],
+        ["xpath=//div[2]/select/option[8]", "xpath:position"],
+        ["xpath=//option[contains(.,'25.000.000,00')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "268406cc-9ba8-4f48-ae0c-12b116cc453e",
+      "comment": "",
+      "command": "select",
+      "target": "id=meritrating",
+      "targets": [],
+      "value": "label=Bonus 8"
+    }, {
+      "id": "bcb5abc4-b2bf-434c-aeef-83a95cc53d9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#meritrating > option:nth-child(10)",
+      "targets": [
+        ["css=#meritrating > option:nth-child(10)", "css:finder"],
+        ["xpath=//option[@value='Bonus 8']", "xpath:attributes"],
+        ["xpath=//select[@id='meritrating']/option[10]", "xpath:idRelative"],
+        ["xpath=//div[3]/select/option[10]", "xpath:position"],
+        ["xpath=//option[contains(.,'Bonus 8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe9c5bd9-6735-42ec-bdd0-c8f6ffd76509",
+      "comment": "",
+      "command": "select",
+      "target": "id=damageinsurance",
+      "targets": [],
+      "value": "label=Full Coverage"
+    }, {
+      "id": "54734f0e-5147-4c90-8cca-2f20df8b2979",
+      "comment": "",
+      "command": "click",
+      "target": "css=#damageinsurance > option:nth-child(4)",
+      "targets": [
+        ["css=#damageinsurance > option:nth-child(4)", "css:finder"],
+        ["xpath=//option[@value='Full Coverage']", "xpath:attributes"],
+        ["xpath=//select[@id='damageinsurance']/option[4]", "xpath:idRelative"],
+        ["xpath=//section[3]/div[4]/select/option[4]", "xpath:position"],
+        ["xpath=//option[contains(.,'Full Coverage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "661fd05f-3299-43b5-b735-2605b0b4069b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(2) > .ideal-check",
+      "targets": [
+        ["css=.field:nth-child(5) .ideal-radiocheck-label:nth-child(2) > .ideal-check", "css:finder"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[5]/p/label[2]/span", "xpath:idRelative"],
+        ["xpath=//div[5]/p/label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6175d1b6-e1be-42d7-a359-7e034f57488d",
+      "comment": "",
+      "command": "select",
+      "target": "id=courtesycar",
+      "targets": [],
+      "value": "label=No"
+    }, {
+      "id": "2e621b6a-cfb2-4302-8d9b-23b5ecc321bf",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextselectpriceoption",
+      "targets": [
+        ["id=nextselectpriceoption", "id"],
+        ["name=Next (Select Price Option)", "name"],
+        ["css=#nextselectpriceoption", "css:finder"],
+        ["xpath=//button[@id='nextselectpriceoption']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[3]/div[7]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9e74372-c3f5-40ee-9412-43155cae457a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.choosePrice:nth-child(2) > .ideal-radio",
+      "targets": [
+        ["css=.choosePrice:nth-child(2) > .ideal-radio", "css:finder"],
+        ["xpath=//table[@id='priceTable']/tfoot/tr/th[2]/label[2]/span", "xpath:idRelative"],
+        ["xpath=//th[2]/label[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46dd1c13-9c0c-4f2a-aad6-843346d7392c",
+      "comment": "",
+      "command": "click",
+      "target": "id=nextsendquote",
+      "targets": [
+        ["id=nextsendquote", "id"],
+        ["name=Next (Send Quote)", "name"],
+        ["css=#nextsendquote", "css:finder"],
+        ["xpath=//button[@id='nextsendquote']", "xpath:attributes"],
+        ["xpath=//div[@id='quote-container']/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe855694-d1d0-4db2-8a81-576fbc9d770e",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=E-Mail", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//section[@id='sendQuoteForm']/div/input", "xpath:idRelative"],
+        ["xpath=//section[5]/section/div/input", "xpath:position"]
+      ],
+      "value": "teste@test.com"
+    }, {
+      "id": "ad7b5110-db4c-48d8-8cae-40b3d0509fd2",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=Phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//section[@id='sendQuoteForm']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//section[5]/section/div[2]/input", "xpath:position"]
+      ],
+      "value": "55555555"
+    }, {
+      "id": "73c3ed77-e542-44a0-b623-15777f907f8f",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=Username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//section[@id='sendQuoteForm']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//section[5]/section/div[3]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "d5258bfe-8175-4f96-9f7e-d539229ac685",
+      "comment": "",
+      "command": "click",
+      "target": "id=sendQuoteForm",
+      "targets": [
+        ["id=sendQuoteForm", "id"],
+        ["css=#sendQuoteForm", "css:finder"],
+        ["xpath=//section[@id='sendQuoteForm']", "xpath:attributes"],
+        ["xpath=//form[@id='insurance-form']/div/section[5]/section", "xpath:idRelative"],
+        ["xpath=//section[5]/section", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "084a267c-3970-49a9-a66e-6d30e6594de6",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=Password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//section[@id='sendQuoteForm']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Test123"
+    }, {
+      "id": "8414cb4b-661a-454e-9916-fdc0e5b0d4b4",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmpassword",
+      "targets": [
+        ["id=confirmpassword", "id"],
+        ["name=Confirm Password", "name"],
+        ["css=#confirmpassword", "css:finder"],
+        ["xpath=//input[@id='confirmpassword']", "xpath:attributes"],
+        ["xpath=//section[@id='sendQuoteForm']/div[5]/input", "xpath:idRelative"],
+        ["xpath=//section[5]/section/div[5]/input", "xpath:position"]
+      ],
+      "value": "Test123"
+    }, {
+      "id": "03206fe9-444a-439d-bf07-e6990982fb06",
+      "comment": "",
+      "command": "click",
+      "target": "id=sendemail",
+      "targets": [
+        ["id=sendemail", "id"],
+        ["name=Send E-Mail", "name"],
+        ["css=#sendemail", "css:finder"],
+        ["xpath=//button[@id='sendemail']", "xpath:attributes"],
+        ["xpath=//section[@id='sendQuoteForm']/div[7]/button[2]", "xpath:idRelative"],
+        ["xpath=//section[5]/section/div[7]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'« Send »')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "88c6f479-8314-430e-a95a-cd98b14839ac",
+      "comment": "",
+      "command": "click",
+      "target": "css=.confirm",
+      "targets": [
+        ["css=.confirm", "css:finder"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a4cbef73-1f22-44c0-b4f4-59277aff945b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["24ddbd36-2964-4f9d-a082-2cca817f541e"]
+  }],
+  "urls": ["http://sampleapp.tricentis.com/101/app.php"],
+  "plugins": []
+}
